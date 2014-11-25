@@ -1,0 +1,143 @@
+
+ * { outline: red 1px solid;}  
+
+
+body {
+  background-image: url('../images/party.jpg');
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 4%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+                                               
+					
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 98%;
+}
+.span_1_of_2 {
+	width: 48%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2 {
+		width: 100%; 
+	}
+	.span_1_of_2 {
+		width: 100%;
+	}
+}
+
+
+.leftmenu { 
+    height: 750px; 
+    float: right; 
+    width: 400px; 
+    }
+
+.rightmenu { 
+    height: 750px; 
+    float: left; 
+    width: 400px; 
+}
+    
+.inputmenu, .list {
+    background-color:rgba(220,200,200,0.6);
+    height: 500px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.pure-input-1-2 {
+    position: relative;
+    left: 23.5%;
+    padding-top: 1em;
+    text-align: center;
+    margin-top: 2em; 
+
+}
+
+#welcometext {
+    max-width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 3em;
+    padding-top: 1em; 
+    color: black; 
+}
+
+#welcometext2 {
+    max-width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1em;
+    padding-top: 1.5em; 
+
+}
+
+.items {
+ position: relative;
+ top: 10%;
+ height: 400px;
+ background-color: white;
+    list-style:none;
+    padding-left:0;
+}
+
+li {
+    background-color: yellow; 
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+/* font-family: 'Titillium Web', sans-serif;
+
+font-family: 'Montserrat', sans-serif;
+
+*/
