@@ -81,8 +81,8 @@ body {
     top: 50%;
     transform: translateY(-50%);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .pure-input-1-2 {
@@ -126,14 +126,37 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 li {
-    background-color: yellow; 
-    max-width: 75%;
+    top: 7%; 
+    position: relative;
+    max-width: 55%;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
     
 }
 
 
+.pure-button {
+    background-color: green;
+    margin-bottom: 1em; 
+    
+}
+
+.fa {
+    margin-left: 5px;
+    margin-right: 0px; 
+    color: green;
+    float: right;
+    position: relative;
+}
+
+.fa-times:hover {
+    color: black;
+}
+
+.fa-times {
+    color: red;
+}
 
 
 /* font-family: 'Titillium Web', sans-serif;
