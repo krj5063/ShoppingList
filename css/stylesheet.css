@@ -1,5 +1,4 @@
 
- * { outline: red 1px solid;}  
 
 
 body {
@@ -120,7 +119,7 @@ body {
  position: relative;
  top: 10%;
  height: 400px;
- background-color: white;
+
     list-style:none;
     padding-left:0;
 }
@@ -132,31 +131,44 @@ li {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    
+    margin-bottom: 1em;
 }
 
-
-.pure-button {
-    background-color: green;
-    margin-bottom: 1em; 
-    
+.lipop {
+    display: none;
 }
+
 
 .fa {
     margin-left: 5px;
     margin-right: 0px; 
-    color: green;
     float: right;
     position: relative;
 }
 
-.fa-times:hover {
-    color: black;
-}
+.fa-times { color:red;}
 
-.fa-times {
-    color: red;
+.fa-check-circle-o { color:green;}
+
+.fa-times:hover {color: black;}
+
+.fa-check-circle-o:hover {color: black;}
+
+.popup {
+      font-family: 'Titillium Web', sans-serif;
+      color: #000000;
+      font-size: 20px;
+      background: #b8b8b8;
+      padding: 10px 9px 10px 9px;
+      text-decoration: none;
+      float: left;
+      font-size: 16px;
+      border-radius: 5px;
+      text-align: center;
+      width: 132px;
+      margin-bottom: .5em;
 }
+        
 
 
 /* font-family: 'Titillium Web', sans-serif;
